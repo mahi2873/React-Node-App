@@ -1,0 +1,125 @@
+ /* Import Google Font */
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+
+ /* Setting margin and padding by default */
+*{
+
+  margin: 0;
+  padding: 0;
+
+}
+
+/* ADD SALES PAGE CSS */
+.addSalesContainer > .heading{
+
+  font-size: x-large;
+  text-align: center;
+  font-weight: 500;
+
+}
+
+.addSalesContainer{
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+
+}
+
+.input-content{
+
+  width: 50%;
+  margin: 20px 0px;
+
+} 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .input-content{
+
+    width: 75%;
+    margin: 20px 0px;
+  
+  } 
+
+}
+
+
+.input-content > .input-control > label, input{
+
+  margin: 5px 0px;
+
+}
+/* ADD SALES PAGE CSS */
+
+
+/* TOP FIVE SALES PAGE CSS /-REST ARE DEFINED USING BOOTSTRAP-/  */
+
+.sales-table{
+
+  width: 50%;
+
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .sales-table{
+
+    width: 75%;
+
+  }
+
+}
+/* TOP FIVE SALES PAGE CSS /-REST ARE DEFINED USING BOOTSTRAP-/  */
+
+
+/* SETTING WIDTH FOR LOGIN PAGE */
+.login-content{
+
+  width: 50%;
+
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  /* SETTING WIDTH FOR LOGIN PAGE */
+  .login-content{
+
+    width: 75%;
+  
+  }
+
+  
+}
+/* SETTING WIDTH FOR LOGIN PAGE */
+
+/* SETTING WIDTH FOR REGISTER PAGE */
+.register-content{
+
+  width: 50%;
+
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  /* SETTING WIDTH FOR REGISTER PAGE */
+  .register-content{
+
+    width: 75%;
+  
+  }
+
+  
+}
+/* SETTING WIDTH FOR REGISTER PAGE */

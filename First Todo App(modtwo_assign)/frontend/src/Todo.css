@@ -1,0 +1,136 @@
+/* Setting background color default */
+*{
+    background-color:tomato;
+}
+
+/* Applying Setting to container */
+.container{
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .todoContainer{
+    background-color: aliceblue;
+} */
+
+/* Applying Setting for heading text-size, color, font-type */
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    font-weight:650;
+    font-family: 'Gill Sans';
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* CSS setting for label, text-input, button *starting*/
+.todoContent{
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.todoContent > label , input , button[type="submit"]{
+
+font-size: larger;
+background-color: whitesmoke;
+border-radius: 5px;
+margin: 3px;
+
+}
+
+label{
+    font-weight: 500;
+}
+
+button[type="submit"]{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border: transparent;
+}
+
+button[type="submit"]:hover{
+
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+
+}
+
+input{
+    width: 400px;
+    padding: 5px;
+    border: solid 3px gray;
+    outline: none;
+}
+/* CSS setting for label, text-input, button *ending*/
+
+/* Applying setting for list item to display items *starting*/
+.listItem{
+    display: block;
+    justify-content: center;
+    margin: 10px 40px;
+}
+
+.listItem > ul > li{
+
+    list-style-type: none;
+    background-color: aliceblue;
+    width: 500px;
+    border-radius: 5px;
+    margin: 0px 0px;
+    font-size: x-large;
+    text-align: center;
+    padding: 0px 10px;
+    font-weight: 600;
+}
+
+.item{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    /* justify-content: space-between; */
+    background-color: aliceblue;
+}
+
+.item > .txtctn , button{
+
+    margin: 1px;
+
+}
+
+/* .item > button{
+    border: transparent;
+    border-radius: 5px;
+} */
+
+.txtctn{
+    background-color: aliceblue;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+.txtctn::-webkit-scrollbar{
+    display: none;
+}
+
+
+.listItem > ul > li{
+
+    padding: 5px 20px;
+
+}
+
+/* .item > button{
+
+    background-color: black;
+    color: white;
+
+} */
+/* Applying setting for list item to display items *ending*/
